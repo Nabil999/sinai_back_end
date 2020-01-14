@@ -28,6 +28,8 @@ const db = knex({
     user : 'postgres',
     password : 'jana',
     database : 'sample'
+    connectionString: process.env.DATABASE_URL
+
   }
 });
 
